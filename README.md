@@ -1,29 +1,31 @@
-HEY CHAT is a modern real-time messaging application developed by **LHC GROUP**. It offers real-time messaging, file sharing (images, videos, and documents), and AI-powered chatbot integration for automated responses when no active users are available.
+# HEY CHAT
+
+HEY CHAT is a modern real-time messaging application developed by **LHC GROUP**. It provides a seamless messaging platform with support for file sharing, AI chatbot integration, and a user-friendly interface.
 
 ---
 
 ## Features
 
 ### Core Features
-- **Real-Time Messaging**: Send and receive messages instantly using WebSocket technology.
-- **File Sharing**: Share images, videos, and other files easily.
-- **AI Chatbot**: Integrated AI chatbot to handle user inquiries and provide automated responses.
-- **Message History**: Persistent message storage for seamless synchronization across sessions.
-- **User-Friendly Interface**: A clean and intuitive interface designed for both mobile and desktop devices.
+- **Real-Time Messaging**: Send and receive messages instantly.
+- **File Sharing**: Share images, videos, and files conveniently.
+- **AI Chatbot**: Integrated AI chatbot for automated responses when no users are active.
+- **Message History**: Persistent message storage for easy synchronization.
+- **Responsive Interface**: A clean and intuitive design for all devices.
 
 ### Advanced Features
-- **Dark Mode Support**: Switch between light and dark themes for better usability.
-- **Push Notifications**: Instant alerts for new messages.
+- **Dark Mode**: Switch between light and dark themes.
+- **Push Notifications**: Receive instant alerts for new messages.
 - **End-to-End Encryption**: Secure your conversations with robust encryption.
 
 ---
 
-## Installation
+## Installation Guide
 
 ### Prerequisites
-- **Backend**: Node.js (>=16.x), MongoDB
+- **Backend**: Node.js, MongoDB
 - **Frontend**: React Native CLI or Expo
-- **Additional Tools**: Docker (optional for containerization)
+- **Tools**: Docker (optional)
 
 ---
 
@@ -39,8 +41,8 @@ HEY CHAT is a modern real-time messaging application developed by **LHC GROUP**.
    ```bash
    npm install
    ```
-3. Start MongoDB (ensure it's running locally or provide a connection URI).
-4. Run the server:
+3. Ensure MongoDB is running locally or provide a connection URI.
+4. Start the server:
    ```bash
    node server.js
    ```
@@ -54,70 +56,52 @@ HEY CHAT is a modern real-time messaging application developed by **LHC GROUP**.
    ```bash
    npm install
    ```
-3. Start the application:
+3. Run the application:
    ```bash
-   npx react-native run-android # For Android
-   npx react-native run-ios # For iOS
+   npx react-native run-android # Android
+   npx react-native run-ios # iOS
    ```
 
 ---
 
-## Usage
+## UI Showcase
 
-1. Open the application on your device.
-2. Sign in or create an account to start chatting.
-3. Use the input box to send messages in real time.
-4. Share images, videos, or files through the file-sharing feature.
-5. Interact with the AI chatbot when no other users are online.
+### Login Screen
+![Login Screen](assets/login_screen.png)
+
+### Chat Interface
+![Chat Interface](assets/chat_interface.png)
+
+### File Sharing
+![File Sharing](assets/file_sharing.png)
 
 ---
 
-## Project Structure
+## Contact Us
 
-```plaintext
-hey-chat/
-├── backend/
-│   ├── server.js           # Backend server code
-│   ├── models/             # Database models (e.g., Message schema)
-│   └── package.json        # Backend dependencies
-├── frontend/
-│   ├── App.js              # Main React Native application
-│   ├── components/         # Reusable UI components
-│   ├── assets/             # Static assets like images
-│   └── package.json        # Frontend dependencies
-├── assets/                 # Logo and branding assets
-└── README.md               # Project documentation
-```
+For any inquiries or support, please contact us:
+- **Email**: [lehungcong1234@gmail.com](mailto:lehungcong1234@gmail.com)
+- **Website**: [Visit us on Facebook](https://www.facebook.com/share/194zSfg21P/)
 
 ---
 
 ## Contributing
 
-We welcome contributions to improve HEY CHAT! To contribute:
+We welcome contributions to enhance HEY CHAT:
 1. Fork the repository.
-2. Create a new branch:
+2. Create a feature branch:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes and push them to your fork:
+3. Commit your changes and push:
    ```bash
-   git commit -m "Add a new feature"
+   git commit -m "Add feature"
    git push origin feature-name
    ```
-4. Create a pull request explaining your changes.
+4. Open a pull request with details about your changes.
 
 ---
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For any inquiries or support, please contact **LHC GROUP**:
-- Email: [lehungcong1234@gmail.com]((lehungcong1234@gmail.com))
-- Website: [www.lehungcong.com](https://www.facebook.com/share/194zSfg21P/)
-
----
