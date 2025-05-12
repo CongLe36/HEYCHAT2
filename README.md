@@ -117,7 +117,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any inquiries or support, please contact **LHC GROUP**:
-- Email: support@lhcgroup.com
+- Email: [lehungcong1234@gmail.com]((lehungcong1234@gmail.com))
 - Website: [www.lhcgroup.com]((https://www.facebook.com/share/194zSfg21P/))
 
 ---
