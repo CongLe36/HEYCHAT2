@@ -1,5 +1,3 @@
-
-
 HEY CHAT is a modern real-time messaging application developed by **LHC GROUP**. It offers real-time messaging, file sharing (images, videos, and documents), and AI-powered chatbot integration for automated responses when no active users are available.
 
 ---
