@@ -1,62 +1,60 @@
-# HEYCHAT
-
-HEYCHAT is a modern real-time messaging application developed by **Lê Hùng Công GROUP**. It provides a seamless messaging platform with support for file sharing, AI chatbot integration, and a user-friendly interface.
+HEYCHAT là một ứng dụng nhắn tin thời gian thực hiện đại được phát triển bởi **Lê Hùng Công GROUP**. Ứng dụng cung cấp một nền tảng nhắn tin mượt mà, hỗ trợ chia sẻ tệp, tích hợp chatbot AI và giao diện thân thiện với người dùng.
 
 ---
 
-## Features
+## Tính năng
 
-### Core Features
-- **Real-Time Messaging**: Send and receive messages instantly.
-- **File Sharing**: Share images, videos, and files conveniently.
-- **AI Chatbot**: Integrated AI chatbot for automated responses when no users are active.
-- **Message History**: Persistent message storage for easy synchronization.
-- **Responsive Interface**: A clean and intuitive design for all devices.
+### Tính năng chính
+- **Nhắn tin thời gian thực**: Gửi và nhận tin nhắn ngay lập tức.
+- **Chia sẻ tệp**: Dễ dàng chia sẻ hình ảnh, video và các tệp khác.
+- **Chatbot AI**: Tích hợp chatbot AI để trả lời tự động khi không có người dùng hoạt động.
+- **Lưu trữ lịch sử tin nhắn**: Lưu trữ tin nhắn lâu dài để đồng bộ dễ dàng.
+- **Giao diện thân thiện**: Thiết kế sạch sẽ và trực quan dành cho mọi thiết bị.
 
-### Advanced Features
-- **Dark Mode**: Switch between light and dark themes.
-- **Push Notifications**: Receive instant alerts for new messages.
-- **End-to-End Encryption**: Secure your conversations with robust encryption.
+### Tính năng nâng cao
+- **Chế độ tối**: Chuyển đổi giữa giao diện sáng và tối.
+- **Thông báo đẩy**: Nhận thông báo ngay lập tức cho tin nhắn mới.
+- **Mã hóa đầu cuối**: Bảo mật các cuộc trò chuyện với mã hóa mạnh mẽ.
 
 ---
 
-## Installation Guide
+## Hướng dẫn cài đặt " HEYCHAT "
 
-### Prerequisites
+### Yêu cầu
 - **Backend**: Node.js, MongoDB
-- **Frontend**: React Native CLI or Expo
-- **Tools**: Docker (optional)
+- **Frontend**: React Native CLI hoặc Expo
+- **Công cụ bổ sung**: Docker (tùy chọn)
 
 ---
 
-### Steps to Run the Application
+### Các bước để chạy ứng dụng
 
 #### Backend
-1. Clone the repository:
+1. Clone repository:
    ```bash
    git clone https://github.com/LHC-GROUP/hey-chat.git
    cd hey-chat/backend
    ```
-2. Install dependencies:
+2. Cài đặt các thư viện:
    ```bash
    npm install
    ```
-3. Ensure MongoDB is running locally or provide a connection URI.
-4. Start the server:
+3. Đảm bảo MongoDB đang chạy cục bộ hoặc cung cấp URI kết nối.
+4. Khởi động server:
    ```bash
    node server.js
    ```
 
 #### Frontend
-1. Navigate to the frontend directory:
+1. Điều hướng đến thư mục frontend:
    ```bash
    cd ../frontend
    ```
-2. Install dependencies:
+2. Cài đặt các thư viện:
    ```bash
    npm install
    ```
-3. Run the application:
+3. Chạy ứng dụng:
    ```bash
    npx react-native run-android # Android
    npx react-native run-ios # iOS
@@ -64,44 +62,44 @@ HEYCHAT is a modern real-time messaging application developed by **Lê Hùng Cô
 
 ---
 
-## UI Showcase
+## Giao diện ứng dụng
 
-### Login Screen
-![Login Screen](assets/login_screen.png)
+### Màn hình đăng nhập
+![Màn hình đăng nhập](assets/login_screen.png)
 
-### Chat Interface
-![Chat Interface](assets/chat_interface.png)
+### Giao diện chat
+![Giao diện chat](assets/chat_interface.png)
 
-### File Sharing
-![File Sharing](assets/file_sharing.png)
+### Chia sẻ tệp
+![Chia sẻ tệp](assets/file_sharing.png)
 
 ---
 
-## Contact Us
+## Liên hệ với chúng tôi
 
-For any inquiries or support, please contact us:
+Để biết thêm thông tin hoặc hỗ trợ, vui lòng liên hệ:
 - **Email**: [lehungcong1234@gmail.com](mailto:lehungcong1234@gmail.com)
-- **Website**: [Visit us on Facebook](https://www.facebook.com/share/194zSfg21P/)
+- **Website**: [Truy cập Facebook](https://www.facebook.com/share/194zSfg21P/)
 
 ---
 
-## Contributing
+## Đóng góp
 
-We welcome contributions to enhance HEY CHAT:
-1. Fork the repository.
-2. Create a feature branch:
+Chúng tôi hoan nghênh các đóng góp để cải thiện HEYCHAT:
+1. Fork repository.
+2. Tạo một nhánh tính năng mới:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes and push:
+3. Commit các thay đổi và đẩy lên:
    ```bash
-   git commit -m "Add feature"
+   git commit -m "Thêm tính năng"
    git push origin feature-name
    ```
-4. Open a pull request with details about your changes.
+4. Tạo pull request với chi tiết về thay đổi của bạn.
 
 ---
 
-## License
+## Giấy phép
 
-This project is licensed under the [MIT License](LICENSE).
+Dự án này được cấp phép theo [MIT License](LICENSE).
