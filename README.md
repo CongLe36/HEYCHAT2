@@ -65,7 +65,7 @@ HEYCHAT là một ứng dụng nhắn tin thời gian thực hiện đại đư�
 ## Giao diện ứng dụng
 
 ### Màn hình đăng nhập
-![Màn hình đăng nhập](assets/login_screen.png)
+![Màn hình đăng nhập](Screenshot 2025-05-15 105906.png)
 
 ### Giao diện chat
 ![Giao diện chat](assets/chat_interface.png)
